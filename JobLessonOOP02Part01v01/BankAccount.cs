@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JobLessonOOP02Part03v01
+namespace JobLessonOOP02Part04v01
 {
     public class BankAccount
     {
