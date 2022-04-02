@@ -13,7 +13,7 @@ namespace JobLessonOOP02Part02v01
         {
             int numAcc = generateAccBank;
             numAcc++;
-            generateAccBank=numAcc;
+            generateAccBank = numAcc;
             return generateAccBank;
         }
         public void GetInfo()
