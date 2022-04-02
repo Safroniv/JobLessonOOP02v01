@@ -1,14 +1,15 @@
-﻿namespace JobLessonOOP02Part02v01
+﻿namespace JobLessonOOP02Part03v01
 {
     class Program
     {
         static void Main()
         {
-            BankAccount myBankAccount = new BankAccount();
-            myBankAccount.BallanceAccountOfBank = 10000;
-            myBankAccount.TypeAccountOfBank = TypeAccountOfBank.current;
-            myBankAccount.GetInfo();
-            
+            BankAccount bankAccount1 = new(2000.50);
+            bankAccount1.GetInfo();
+            BankAccount bankAccount2 = new(TypeAccountOfBank.current);
+            bankAccount2.GetInfo();
+            BankAccount bankAccount3 = new(50_000_000.00, TypeAccountOfBank.credit);
+            bankAccount3.GetInfo();
         }
     }
 }
