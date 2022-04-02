@@ -1,12 +1,15 @@
-﻿using System;
-
-namespace JobLessonOOP02Part01v01
+﻿namespace JobLessonOOP02Part01v01
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            BankAccount myBankAccount = new();
+            myBankAccount.AccountOfBank = 10;
+            myBankAccount.BallanceAccountOfBank = 10000;
+            myBankAccount.TypeAccountOfBank = TypeAccountOfBank.current;
+            myBankAccount.GetInfo();
+            
         }
     }
 }
